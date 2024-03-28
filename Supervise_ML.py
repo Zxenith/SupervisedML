@@ -371,5 +371,3 @@ def manual_softmax(z):
     ez = np.exp(z)
     sumo = ez/np.sum(ez)
     return sumo
-
-
