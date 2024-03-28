@@ -4,4 +4,7 @@ A Manual approach to two famous Machine Learning Algorithms using different Pyth
 Like: Numpy, Pandas, Matplotlib, Math and Copy.
 
 Linear Regression
+
 Logistic Regression
+
+Linear and Logistic Regression using Sci-Kit Learn added.
