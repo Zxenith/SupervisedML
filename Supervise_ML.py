@@ -22,6 +22,7 @@ def cost_func(x, y, w, b):
     for i in range(m):
         f_wb = w * x[i] + b
         cost += (f_wb - y[i]) ** 2
+        
     cost /= (2 * m)
 
     return cost
