@@ -93,7 +93,6 @@ def multi_cost(x, y, w, b):
 
     for i in range(m):
         cost += ((np.dot(x[i], w) + b) - y[i]) ** 2
-
     cost /= 2 * m
 
     return cost
